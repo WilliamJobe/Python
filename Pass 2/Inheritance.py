@@ -17,7 +17,7 @@ class Employee(Person):
         return self.Name() + ", " +  self.staffnumber
 
 x = Person("Marge", "Simpson")
-y = Employee("Homer", "Simpson", "1007")
+y = Employee("Homer", "Simpson", "1337")
 
 print(x.Name())
 print(y.GetEmployee())
