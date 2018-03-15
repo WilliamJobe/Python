@@ -7,5 +7,8 @@ myCar = Car()  # Create an empty employee record
 myCar.model = 'V 70'
 myCar.brand = 'Volvo'
 myCar.year = 2005
+#print(myCar.model, myCar.brand)
 
-print(myCar.model)
+def printer(x):
+    print(x)
+printer(myCar)

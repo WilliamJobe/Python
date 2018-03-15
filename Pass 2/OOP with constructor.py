@@ -1,3 +1,4 @@
+#testa med nonlocal och global variabler här
 class MyMath:
     myInt = 12345 #class variable the same for all instances
     """“Private” instance variables that cannot be accessed except from
